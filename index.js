@@ -16,7 +16,7 @@ const processResults = async function () {
     // build the html string
     categoryClass = item.category.toLowerCase();
     html += `<div class="subtotal ${categoryClass}">
-      <img src="${item.icon}" />
+      <img src="${item.icon}" alt="Category icon" />
       <div class="subtotal-description"><strong>${item.category}</strong>
         </div>
       <div class="score"><strong>${item.score}</strong> / 100</div>
