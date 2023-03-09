@@ -1,0 +1,50 @@
+:root {
+  /* Result colors */
+  --color-reaction: hsl(0, 100%, 67%);
+  --color-memory: hsl(39, 100%, 56%);
+  --color-verbal: hsl(166, 100%, 37%);
+  --color-visual: hsl(234, 85%, 45%);
+
+  /* Background gradient */
+  --bg-gradient-start: hsl(252, 100%, 67%);
+  --bg-gradient-end: hsl(241, 81%, 54%);
+
+  /* Circle gradient */
+  --circle-gradient-start: hsla(256, 72%, 46%, 1);
+  --circle-gradient-end: hsla(241, 72%, 46%, 1);
+
+  /* Text Colors */
+  --text-white: hsl(0, 0%, 100%);
+  --text-pale-blue: hsl(221, 100%, 96%);
+  --text-light-lavender: hsl(241, 100%, 89%);
+  --text-dark-grey-blue: hsl(224, 30%, 27%);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.summary {
+  display: flex;
+  flex-direction: column;
+  background-color: aqua;
+}
+
+.subtotal {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: space-between;
+  background-color: greenyellow;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
